@@ -1,0 +1,78 @@
+.example-card{
+  margin-top: 4px;
+  background-color:white;
+  margin-bottom: 2em;
+}
+
+.example-header-image { 
+  background-size: cover;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.img-article{
+	height: 550px;
+}
+
+.action-buttons{
+  background-color:#ededed;
+	text-align: center;
+}
+
+.example-container {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(111, 111, 111, 0.50);
+  
+}
+.example-sidenav-content {
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.example-sidenav {
+  margin-top: 3.5em;
+  position: fixed; 
+    padding: 20px;
+}
+
+.list-item:hover{
+	cursor: pointer;
+	background-color: lightgray;
+	color: white;
+}
+.toolbar{
+  width: 100%;
+}
+.toolbar .search { float:right }
+.toolbar .name { 
+    float:left;
+    padding-left: 1em;
+    padding-top: 0.2em;
+ }
+
+.search-box{
+  margin-right: 2em;
+  width: 20em;
+  height: 3em;
+  font-size: 50%;
+  padding-left: 1em;
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; 
+  top: 0; 
+  z-index: 1000; 
+  margin-top: 0%;
+}
+
+.home-btn{
+  border-radius: 10%;
+  background-color: #8b8686;
+}
